@@ -7,7 +7,7 @@ import java.net.URL
 
 fun getInput(year: Int, day: Int): BufferedReader {
     // open file with format 'YYYY-dayXX.txt
-    val file = File("./${year}-day${if (day < 10 ) "0${day}" else day}.txt")
+    val file = File("./input/${year}-day${if (day < 10 ) "0${day}" else day}.txt")
 
     return if (file.isFile) file.bufferedReader()
     else {

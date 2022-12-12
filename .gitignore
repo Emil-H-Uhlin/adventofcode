@@ -4,5 +4,7 @@
 *.iml
 
 out
-src/input
 src/test
+
+# adventofcode input
+input
